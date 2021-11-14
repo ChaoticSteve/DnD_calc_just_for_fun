@@ -18,6 +18,7 @@ class Character():
         return sum(result)
 
 
-hero = Character(10, 15, '1d8')
-villain = Character(15, 10, '1d6')
-print(hero.attack(villain))
+if __name__ == '__main__':
+    hero = Character(10, 15, '1d8')
+    villain = Character(15, 10, '1d6')
+    print(hero.attack(villain))
